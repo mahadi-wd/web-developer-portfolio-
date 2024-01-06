@@ -101,7 +101,7 @@ header {
 .about {
   background: rgba(255, 248, 243, 1);
   max-width: 950px;
-  margin:  80px auto;
+  margin:  120px auto;
   padding: 50px 20px;
 }
 .section-discription {
@@ -112,4 +112,17 @@ header {
   line-height: 30px; /* 166.667% */
   max-width: 800px;
   margin: auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+}
+.info-discription{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
 }
