@@ -13,7 +13,8 @@ body{
    font-size: 20px;
    padding: 18px 35px ;
    color: white;
-   
+   font-weight: 700;
+
 }
 
 /* nav related style */
@@ -22,6 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 .menu-logo{
@@ -44,4 +46,22 @@ nav a{
     color: #474747;
     color: 18px;
     
+}
+
+/* header related styles  */
+
+header{
+    background: #FFF8F3;
+
+}
+
+/* header banner releted styles */
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+    margin-bottom: -30px;
 }
