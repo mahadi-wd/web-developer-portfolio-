@@ -6,3 +6,42 @@ body{
 .main-color{
 
 }   
+.btn-primary{
+   background: #FD6E0A;
+   border-radius: 5px;
+   border: none;
+   font-size: 20px;
+   padding: 18px 35px ;
+   color: white;
+   
+}
+
+/* nav related style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu-logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+.menu-r{
+    color: #FD6E0A;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    color: 18px;
+    
+}
