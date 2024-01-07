@@ -97,11 +97,16 @@ header {
 
 /* main section style */
 
+main{
+  max-width: 950px;
+  margin: auto;
+}
+
 /* about  section styles */
 .about {
   background: rgba(255, 248, 243, 1);
   max-width: 950px;
-  margin:  120px auto;
+  margin: 120px auto;
   padding: 50px 20px;
 }
 .section-discription {
@@ -113,16 +118,48 @@ header {
   max-width: 800px;
   margin: auto;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
-.info-title{
-    color: #757575;
+.info-title {
+  color: #757575;
 }
-.info-discription{
-    color: black;
-    font-size: 18px;
-    font-weight: 700;
+.info-discription {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* what i do styles */
+
+.i-do-discription {
+  width: 800px;
+  color: #757575;
+  text-align: center;
+  margin: auto;
+}
+
+/* what i do section skill item styles */
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  box-sizing: border-box;
+  
+}
+.skill {
+  width: 200px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.06);
+}
+.skill img {
+  width: 40px;
+}
+.skill-title {
+}
+.skill-discription {
+  max-width: 180px;
 }
